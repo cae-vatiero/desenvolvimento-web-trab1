@@ -63,17 +63,17 @@ main {
 
 .intro {
     text-align: center;
-    margin-bottom: 30px; /* Adiciona espaço de 30px entre a intro e as reportagens */
+    margin-bottom: 30px; 
 }
 
 .intro h1 {
-    font-family: 'Barlow', sans-serif; /* Define a fonte Barlow */
-    font-size: 48px; /* Define o tamanho da fonte para 48px */
-    margin-bottom: 20px; /* Adiciona espaço de 20px abaixo do título */
+    font-family: 'Barlow', sans-serif; 
+    font-size: 48px; 
+    margin-bottom: 20px; 
 }
 
 .intro p {
-    margin-bottom: 10px; /* Adiciona espaço de 10px entre os parágrafos */
+    margin-bottom: 10px; 
 }
 
 .reportagens {
@@ -84,15 +84,15 @@ main {
 }
 
 .reportagem h2 a {
-    text-decoration: none; /* Remove o sublinhado */
-    color: black; /* Define a cor do texto como preto */
+    text-decoration: none; 
+    color: black;
 }
 .reportagem {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4%;
     padding: 15px;
-    flex: 0 0 calc(32% - 20px); /* 32% de largura menos a margem */
+    flex: 0 0 calc(32% - 20px); 
     margin-bottom: 20px;
 }
 
@@ -121,9 +121,7 @@ footer {
     color: #000; 
     font-size: 19px; 
     display: flex;
-    /*justify-content: flex-start; /* Alinha o footer à direita */
-    gap: 200px; /* Espaçamento entre as colunas */
-}
+    gap: 200px; 
 
 footer nav {
     display: flex;
@@ -132,7 +130,7 @@ footer nav {
 }
 
 footer nav a {
-    color: #000; /* Cor do texto */
+    color: #000; 
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
 }
@@ -148,7 +146,7 @@ footer .Projetos {
 }
 
 footer p {
-    margin: 0 auto; /* Centraliza o parágrafo de direitos autorais */
-    width: fit-content; /* Define a largura do parágrafo conforme o conteúdo */
+    margin: 0 auto; 
+    width: fit-content; 
     font-family: 'Barlow', sans-serif;
 }
