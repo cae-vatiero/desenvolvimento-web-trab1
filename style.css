@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+:root {
+    --bg-color-80: rgb(238, 238, 238);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color-80);
+}
+
+header {
+    background-color: rgb(238, 238, 238);
+    color: rgb(75, 49, 220);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 112px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.navbar nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar nav a:hover {
+    background-color: #575757;
+    border-radius: 3px;
+}
+
+main {
+    padding: 20px 112px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px; /* Adiciona espaço de 30px entre a intro e as reportagens */
+}
+
+.intro h1 {
+    font-family: 'Barlow', sans-serif; /* Define a fonte Barlow */
+    font-size: 48px; /* Define o tamanho da fonte para 48px */
+    margin-bottom: 20px; /* Adiciona espaço de 20px abaixo do título */
+}
+
+.intro p {
+    margin-bottom: 10px; /* Adiciona espaço de 10px entre os parágrafos */
+}
+
+.reportagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.reportagem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4%;
+    padding: 15px;
+    flex: 0 0 calc(32% - 20px); /* 32% de largura menos a margem */
+    margin-bottom: 20px;
+}
+
+.reportagem h2 {
+    margin-top: 0;
+}
+
+.reportagem p {
+    color: #555;
+}
+
+.reportagem span {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+}
+
+.reportagem img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 40px 112px;
+    background-color: var(--bg-color-80); 
+    color: #000; 
+    font-size: 19px; 
+    display: flex;
+    /*justify-content: flex-start; /* Alinha o footer à direita */
+    gap: 200px; /* Espaçamento entre as colunas */
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer nav a {
+    color: #000; /* Cor do texto */
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer .Conheça-o-Núcleo,
+footer .Transparência,
+footer .Projetos {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 0 auto; /* Centraliza o parágrafo de direitos autorais */
+    width: fit-content; /* Define a largura do parágrafo conforme o conteúdo */
+    font-family: 'Barlow', sans-serif;
+}
